@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/drawable/buttonorange.xml" value="0.2203125" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/drawable/image.xml" value="0.2203125" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/drawable/searchbg.xml" value="0.2203125" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/drawable/tab_shape.xml" value="0.2203125" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/drawable/tab_shape01.xml" value="0.2203125" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/activity_akun_saya.xml" value="0.20416666666666666" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/activity_calendar.xml" value="0.20416666666666666" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/activity_main_admin.xml" value="0.25" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/activity_main_user.xml" value="0.22" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/activity_register_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/row_makanan.xml" value="0.22" />
+        <entry key="..\:/AplikasiKantinGriyaNafans-master/app/src/main/res/layout/rowadminorder.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

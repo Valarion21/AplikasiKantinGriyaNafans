@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerUser"
+    android:background="#ffffff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/kantin"
+        />
+
+
+    <TextView
+        android:id="@+id/tvDaftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:fontFamily="@font/oswald"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="190dp"/>
+
+    <EditText
+        android:id="@+id/input_u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/tvDaftar"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/kotak"
+        android:drawableStart="@drawable/Username"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotak"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/input_u"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="No.Kamar"
+        android:fontFamily="@font/oswald"
+        android:paddingLeft="20dp"
+        android:id="@+id/inputNoKamar"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotak"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputNoKamar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="No.Hp"
+        android:fontFamily="@font/oswald"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/inputNoHp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotak"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputNoHp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Password"
+        android:fontFamily="@font/oswald"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/inputPass"
+        />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/inputPass"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/tombol"
+        android:text="Daftar"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akunSaya"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/oswald"
+        android:text="Kantin Griya Nafans"
+        android:textColor="@color/black" />
+
+
+    <RelativeLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/kantin"/>
+
+
+    <TextView
+        android:id="@+id/tvAkun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:fontFamily="@font/oswald"
+        android:gravity="center"
+        android:text="Akun Saya"
+        android:textColor="@color/black"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/input_u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/tvAkun"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/kotak"
+        android:drawableStart="@drawable/Username"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotak"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/input_u"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="No.Kamar"
+        android:fontFamily="@font/oswald"
+        android:paddingLeft="20dp"
+        android:id="@+id/inputNoKamar"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kotak"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputNoKamar"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="No.Hp"
+        android:fontFamily="@font/oswald"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/inputNoHp"
+        />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputNoHp"
+        android:layout_marginTop="40dp"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonorange"
+        android:text="Ganti Password"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

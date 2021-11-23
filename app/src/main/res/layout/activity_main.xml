@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android1:layout_width="match_parent"
+    android1:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android1:background="#ffffff"
+    xmlns:android1="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android1:layout_width="match_parent"
+        android1:layout_height="250dp"
+        android1:background="@drawable/kantin"/>
+    <ImageView
+        android1:id="@+id/selamat_d"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="300dp"
+        android1:src="@drawable/coba_s" />
+
+    <ImageView
+        android1:id="@+id/login"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_marginLeft="55dp"
+        android1:layout_marginTop="370dp"
+        android1:src="@drawable/Login_h" />
+
+    <EditText
+        android1:id="@+id/input_u"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginLeft="50dp"
+        android1:layout_marginTop="410dp"
+        android1:layout_marginRight="50dp"
+        android1:background="@drawable/kotak"
+        android1:drawableStart="@drawable/Username"
+        android1:paddingLeft="20dp" />
+
+    <EditText
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:background="@drawable/kotak"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="465dp"
+        android1:layout_marginLeft="50dp"
+        android1:layout_marginRight="50dp"
+        android1:drawableStart="@drawable/Password"
+        android1:paddingLeft="20dp"
+        android1:id="@+id/input_p"
+        />
+
+    <TextView
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:text="Lupa Password?"
+        android1:textSize="15dp"
+        android1:layout_below="@id/input_p"
+        android1:textAlignment="textEnd"
+        android1:layout_marginRight="50dp"
+        android1:id="@+id/lupa_pass"
+        />
+
+    <Button
+        android1:id="@+id/btn_login"
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginLeft="200dp"
+        android1:layout_marginTop="575dp"
+        android1:layout_marginRight="100dp"
+        android1:background="@drawable/tombol"
+        android1:drawableLeft="@drawable/Login"
+        android1:paddingLeft="40dp" />
+
+    <ImageView
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:src="@drawable/opsi"
+        android1:layout_marginLeft="75dp"
+        android1:layout_below="@id/btn_login"
+        android1:layout_marginTop="35dp"
+        android1:layout_Horizontal="true"
+        android1:id="@+id/tanya"
+        />
+
+    <TextView
+        android1:layout_width="match_parent"
+        android1:layout_height="wrap_content"
+        android1:text="Daftar"
+        android1:textSize="15dp"
+        android1:textColor="#01345C"
+        android1:textStyle="bold"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="672dp"
+        android1:layout_marginLeft="270dp"
+        android1:id="@+id/hal_daftar"
+        />
+
+    <ImageView
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:src="@drawable/mark"
+        android1:layout_centerHorizontal= "true"
+        android1:layout_below="@id/hal_daftar"
+
+        />
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
